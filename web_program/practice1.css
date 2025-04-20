@@ -1,0 +1,53 @@
+p{
+    /*Sets paragaph text to color pink */
+    color:pink;
+    /*Sets paragaph teext to align to the center*/
+    text-align:center;
+}
+
+
+h1{
+    /*Sets header 1 text to color cadetblue*/
+    color:cadetblue;
+}
+
+h2{
+    /*Sets header 2 text to color greenyellow */
+    color:greenyellow;
+}
+a{
+    /*Sets anchor to color blueviolet*/
+    color:blueviolet;
+}
+
+body{
+    /*Sets the background image of the body*/
+    background-image:url(https://th.bing.com/th/id/R.49d27cc7feb4f849fb3d4134590e977d?rik=p3bBKSCoKE2cIw&riu=http%3a%2f%2fmedia3.giphy.com%2fmedia%2fPIh4laWJlz9bq%2fgiphy.gif&ehk=RCGH%2fYJ%2fTcxtRfrfdnbuqbqpu8J%2bFQiSBP67ZkpnpVo%3d&risl=&pid=ImgRaw&r=0);
+    /*Sets the background size to cover the whole screen*/
+    background-size:cover;
+    /*Sets any text to be center*/
+    text-align:center;
+}
+
+img{
+    /*Sets the image border to be 10px solid*/
+    border: 10px solid;
+    /*Sets the image to be 300px width*/
+    width: 300px;
+    /*Sets the image to be 300px height*/
+    height: 300px;
+    /*Sets the image border color to be lime*/
+    border-color:lime;
+}
+
+iframe{
+    /*Sets the video border to be 10px solid*/
+    border: 10px solid;
+    /*Sets the video border to be 500px width*/
+    width: 500px;
+    /*Sets the video border to be 500px width*/
+    height: 300px;
+    /*Sets the video border color to be lime*/
+    border-color:cornflowerblue;
+}
+

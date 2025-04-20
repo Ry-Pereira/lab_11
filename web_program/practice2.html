@@ -1,0 +1,124 @@
+<!-- This tag specifies the document type and version to be HTML-->
+<!DOCTYPE html>
+<!--This opens the HTML document and the language is set to English-->
+<html lang = "en">
+    <!--The Head section provides metadata and defined links-->
+    <head>
+        <!--This linkes to the external practice1 CSS file to for styling of the HTML document-->
+        <link rel = "stylesheet" href = "practice1.css">
+        <!--Defines the character encoding as UTF-8-->
+        <meta charset = "UTF-8">
+        <!--Sets viewpoert for devices of appropriate size-->
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <!-- The title of the webpage that is in the browser tab-->
+        <title>Practice 2 Assignment</title>
+    </head>
+    <!--Defines the document's body, containing all of the HTML document content-->
+    <body>
+
+
+        <!--Divised section of the title and dummy text paragraph for or the profile-->
+        <div>
+            <!--First header shows the main title of my profile-->
+            <h1>CS Font Control</h1>
+            <!--Paragraph section that provides dummy tex--> 
+            <p id = "dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <!--Divised section for the Background Red Color Number label and input to gain from the user-->
+         <div>
+            <!--Label for the background red color number input-->
+            <label for="Backgroud Red Color Number">Backgroud Red Color Number</label>
+           <!--Input field for the bacground red color number, only values from 0-255-->
+            <input type = "text" id = "background_red_color_number_input" placeholder="0-255" value = "">
+        </div>
+
+        <!--Divised section for the Background Green Color Number label and input to gain from the user-->
+        <div>
+            <!--Label for the background green color number input-->
+            <label for="Backgroud Green Color Number">Backgroud Green Color Number</label>
+            <!--Input field for the bacground green color number , only values from 0-255-->
+            <input type = "text" id = "background_green_color_number_input" placeholder="0-255" value = "">
+        </div>
+
+        <!--Divised section for the Background Blue Color Number label and input to gain from the user-->
+        <div>
+            <!--Label for the background blue color number input-->
+            <label for="Backgroud Blue Color Number">Backgroud Blue Color Number</label>
+            <!--Input field for the bacground blue color number, only values from 0-255-->
+            <input type = "text" id = "background_blue_color_number_input" placeholder="0-255" value = "">
+        </div>
+
+
+        <!--This breaks up the connet between divised section with some spacing-->
+        </br>
+
+        <!--Divised section for the Border Red Color Number label and input to gain from the user-->
+        <div>
+            <!--Label for the border red color number input-->
+            <label for="Border Red Color Number">Border Red Color Number</label>
+            <!--Input field for the border red color number, only values from 0-255-->
+            <input type = "text" id = "border_red_color_number_input" placeholder="0-255" value = "">
+        </div>
+
+        <!--Divised section for the Border Green Color Number label and input to gain from the user-->
+        <div>
+            <!--Label for the border green color number input-->
+            <label for="Border Green Color Number">Border Green Color Number</label>
+            <!--Input field for the border green color number,only values from 0-255-->
+            <input type = "text" id = "border_green_color_number_input" placeholder="0-255" value = "">
+        </div>
+
+        <!--Divised section for the Border Blue Color Number label and input to gain from the user-->
+
+        <div>
+            <!--Label for the border blue color number input-->
+            <label for="Border Blue Color Number">Border Blue Color Number</label>
+            <!--Input field for the border blun color number,only values from 0-255-->
+            <input type = "text" id = "border_blue_color_number_input" placeholder="0-255" value = "">
+        </div>
+
+        <!--This breaks up the connet between divised section with some spacing-->
+        </br>
+
+
+        <!--Divised section for the Border Width Color Number label and input to gain from the user-->
+        <div>
+            <!--Label for the border width size number input-->
+            <label for="Border Width">Border Width Size Number</label>
+            <!--Input field for the border witdh number,only values from 0-1000-->
+            <input type = "text" id = "border_width_input" placeholder="0-1000" value = "">
+        </div>
+
+        <!--This breaks up the connet between divised section with some spacing-->
+        </br>
+            
+        <!--Divised section for the Button to apply background colors from the user-->
+        <div>
+            <!--button that when is clicked will apply rgb background colors that change the background colors of the dummy paragraph text-->
+            <button onclick ="applyBackgroundRGBColors()">Change Background Colors</button>
+        </div>
+
+        <!--This breaks up the connet between divised section with some spacing-->
+        </br>
+
+        <!--Divised section for the Button to apply border width from the user-->
+        <div>
+            <!--button that when is clicked will apply border widts that change the background width of the border surrounding the dummy paragraph text-->
+            <button onclick ="applyBorderWidth()">Apply Border Width</button>
+        </div>
+
+        <!--This breaks up the connet between divised section with some spacing-->
+        </br>
+
+        <!--Divised section for the Button to apply border colors from the user-->
+        <div>
+              <!--button that when is clicked will apply border colors that change the border colors of the dummy paragraph text-->
+            <button onclick ="applyBorderColors()">Apply Border Colors</button>
+        </div>
+        <!--Includes the external practice2 javascript-->
+        <script src="practice2.js"></script>
+        
+    </body>
+
+</html>
